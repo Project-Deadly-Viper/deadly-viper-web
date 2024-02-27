@@ -104,7 +104,7 @@ a:hover {
     height: 50rem;
     border-bottom: 0.1rem #c0c0c0 solid;
 }
-.products {
+.product {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
