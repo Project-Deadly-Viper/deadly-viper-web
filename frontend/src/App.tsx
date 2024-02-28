@@ -17,8 +17,7 @@ function App() {
 
     <Router>
     <div className="grid-container">
-      <body>
-        <div>
+ 
             <header className="header">
                 <div className="brand">
                     <button onClick={openMenu}>&#9776;</button>
@@ -52,8 +51,6 @@ function App() {
                 &copy; 2024 Deadly Viper
             </footer>
         </div>
-      </body>
-  </div>
 </Router>
   );
 }
