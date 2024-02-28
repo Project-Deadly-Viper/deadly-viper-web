@@ -15,17 +15,18 @@ function App() {
 
   return (
 
-    <Router>
+   // <Router>
     <div className="grid-container">
- 
+            <link rel="stylesheet" href="index.css" />
+            <title>Deadly Viper</title>
             <header className="header">
                 <div className="brand">
                     <button onClick={openMenu}>&#9776;</button>
                     <a href="index.html">Deadly Viper</a>
                 </div>
                 <div className="header-links">
-                    <Link to="/">Home</Link>
-                    <Link to="/catalog">Catalog</Link>
+                    {/* <Link to="/">Home</Link>
+                    <Link to="/catalog">Catalog</Link> */}
                 </div>
             </header>
             <aside className="sidebar">
@@ -42,16 +43,16 @@ function App() {
                 </ul>
             </aside>
             <main className="main">
-                <Routes>
+                {/* <Routes>
                   <Route path="/" element={<Home />} />
                   <Route path="/catalog" element={<Products />} />
-                </Routes>
+                </Routes> */}
             </main>
             <footer className="footer">
                 &copy; 2024 Deadly Viper
             </footer>
         </div>
-</Router>
+//</Router>
   );
 }
 
