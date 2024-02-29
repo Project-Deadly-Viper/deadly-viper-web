@@ -24,7 +24,7 @@ function Orders() {
                         </tr>
                     </thead>
                     <tbody>
-                        {data.orders.map((order) (
+                        {data.orders.map((order) => (
                             <tr key={order._id}>
                                 <td>{order._id}</td>
                                 <td>{order.createdAt}</td>
