@@ -24,7 +24,7 @@ function Orders() {
                         </tr>
                     </thead>
                     <tbody>
-                        {data.orders.map((order) (
+                        {data.orders.map((order) => (
                             <tr key={order._id}>
                                 <td>{order._id}</td>
                                 <td>{order.createdAt}</td>
@@ -33,7 +33,7 @@ function Orders() {
                                 <td>{order.isPaid}</td>
                                 <td>{order.paidAt}</td>
                                 <td>{order.isDelivered.toString()}</td>
-                                <td>{order.deliverableData}</td>
+                                <td>{order.deliveredDate}</td>
                                 <td>
                                     <Link to={"/order/" + order._id} className="button secondary">
                                         Details

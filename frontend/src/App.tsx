@@ -17,7 +17,7 @@ function App() {
 
   return (
 
-   // <Router>
+   <Router>
     <div className="grid-container">
             <link rel="stylesheet" href="index.css" />
             <title>Deadly Viper</title>
@@ -57,7 +57,7 @@ function App() {
                 &copy; 2024 Deadly Viper
             </footer>
         </div>
-//</Router>
+</Router>
   );
 }
 
