@@ -15,7 +15,7 @@ function Products() {
                                 <div className="product-rating">{product.rating} Stars ({product.numberOfReviews} Reviews)</div>
                             </div>
                         </li>
-                    ))};
+                    ))}
             </ul>
         </div>
     );
