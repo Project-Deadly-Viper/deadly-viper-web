@@ -4,6 +4,8 @@ import Home from "./Home/Home";
 import Products from './Products/Products';
 import Orders from './Orders/Orders';
 import OrderDetail from './Orders/OrderDetail';
+import PaymentScreen from './Payment/Payment';
+import Payment from './Payment/Payment';
 
 function App() {
 
@@ -17,7 +19,8 @@ function App() {
 
   return (
 
-   <Router>
+    <Router>
+
     <div className="grid-container">
             <link rel="stylesheet" href="index.css" />
             <title>Deadly Viper</title>
@@ -51,6 +54,7 @@ function App() {
                     <Route path="/catalog" element={<Products />} />
                     <Route path="orders" element={<Orders />}></Route>
                     <Route path="/order/:id" element={<OrderDetail />}></Route>
+                    <Route path="payment" element={<Payment />}></Route>
                 </Routes>
             </main>
             <footer className="footer">
